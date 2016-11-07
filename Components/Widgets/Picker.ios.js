@@ -46,7 +46,7 @@ export default class PickerNB extends NativeBaseComponent {
             },
             pickerItem: {
 
-            }
+            },
             itemTextStyle: {
                 color: this.props.itemTextColor,
             },
