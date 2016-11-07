@@ -4,7 +4,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -131,3 +132,6 @@ captures/
 
 ### Android Patch ###
 gen-external-apklibs
+
+# yarn
+yarn.lock
