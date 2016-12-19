@@ -34,9 +34,9 @@ export default class ListItemNB extends NativeBaseComponent {
             listItem: {
                 borderBottomWidth: this.getTheme().borderWidth,
                 // height: (this.inputPresent()) ? undefined:  this.getTheme().listItemHeight,
-                marginLeft: 15,
+                marginLeft: 0,
                 padding:  this.inputPresent() ? 0 : this.getTheme().listItemPadding,
-                paddingLeft: 2,
+                paddingLeft: 15,
                 justifyContent: ((this.props.iconRight && !this.props.iconLeft) || (this.props.iconRight && this.props.iconLeft)) ? 'space-between' : 'flex-start',
                 flexDirection: this.stackedPresent() ? 'column' : 'row',
                 alignItems: 'center',
